@@ -1,0 +1,24 @@
+.bilbord{
+    width: 100%;
+    height: 142px;
+    margin-bottom: 75px;
+}
+.bilbord .center{
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.bilbord .center img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 300ms;
+}
+.bilbord .center img:hover{
+    transform: scale(1.1 , 1.1 );
+    box-shadow: 5px 5px 25px #2b2b2b;
+}

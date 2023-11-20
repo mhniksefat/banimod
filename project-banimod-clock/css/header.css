@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width:100%;
+    height: 170px;
+}
+header .bottomHeader{
+    width: inherit;
+    height: 140px;
+}
+header .bottomHeader .tbh{
+    width: inherit;
+    height: 95px;
+}
+header .bottomHeader .tbh .center{
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+}
+header .bottomHeader .tbh .center .login{
+    width:270px;
+    height: inherit;
+    text-align: center;
+    display: inline-block;
+}
+header .bottomHeader .tbh .center .login a.basket {
+    display: inline-block;
+    margin-top: 27.5px;
+    vertical-align: middle;
+}
+header .bottomHeader .tbh .center .login a.register {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: blue;
+    text-align: center;
+    line-height: 41px;
+    text-decoration: none;
+    font-family: iran-yekan;
+    font-size: 14px;
+    color: whitesmoke;
+    margin-top: 27.5px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border-radius: 25px;
+    transition: 300ms;
+}
+header .bottomHeader .tbh .center .login a.basket  i{
+    color: black;
+    font-size: 27px;
+    transition: 300ms;
+}
+header .bottomHeader .tbh .center .login a.basket:hover i{
+    color: #5b43f3;
+}
+header .bottomHeader .tbh .center .login a.register:hover {
+    background-color: #5b43f3;
+    
+}
+header .bottomHeader .tbh .center .search{
+    width: 600px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+header .bottomHeader .tbh .center .search input[type=search]{
+    width: 565px;
+    height: 50px;
+    border-radius:50px;
+    display: block;
+    margin: 0 auto;
+    padding-right: 30px;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    outline: unset;
+    border: unset;
+    transition: 300ms;
+}
+
+header .bottomHeader .tbh .center .search input[type=search]::placeholder{
+    font-family: iran-yekan;
+    color: grey;
+    font-size: 15px;
+}
+header .bottomHeader .tbh .center .search input[type=search]:focus{
+    box-shadow: 5px 5px 25px #2b2b2b;
+    font-weight: bold;
+}
+header .bottomHeader .tbh .center .logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    text-align: center;
+}
+
+header .bottomHeader .tbh .center .logo svg{
+    margin-top: 24px;
+}
+header .bottomheader{
+    width: 100%;
+    height: inherit;
+    
+}
+header .bottomheader-1 nav{
+    height: inherit;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+header .bottomheader-1 nav div{
+    width: auto;
+    display: inline-block;
+    height: 57px;
+}
+header .bottomheader-1 nav div:hover{
+    border-bottom: 1px solid blue;
+}
+header .bottomheader-1 nav div a{
+    display: inline-block;
+    width: auto;
+    padding: 0 20px;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: iran-yekan;
+    font-size: 14px;
+    color: #2b2b2b;
+}
+header .bottomheader-1 nav div a:hover{
+color: #3e22f1;    
+}

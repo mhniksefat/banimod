@@ -1,0 +1,620 @@
+
+.product-1{
+    width: 100%;
+    height: 780px;
+}
+.product-1 .topproduct-1{
+    width: inherit;
+    height: 412px;
+    margin-top: 58px;
+}
+.product-1 .topproduct-1 img{
+    width: inherit;
+    height: inherit;
+    
+
+}
+.product-1 .btmproduct-1{
+    width: inherit;
+    height: 340px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.product-1 .btmproduct-1 .btmproduct-1-right{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+}
+.product-1 .btmproduct-1 .btmproduct-1-middle{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+}
+.product-1 .btmproduct-1 .btmproduct-1-left{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+}
+.product-1 .btmproduct-1 .btmproduct-1-right img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.product-1 .btmproduct-1 .btmproduct-1-middle img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.product-1 .btmproduct-1 .btmproduct-1-left img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.product-2{
+  width: 100%;
+  height: 440px;
+  background-color: #efefef;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.product-2 .right{
+  width: 18%;
+  height: 370px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.product-2 .right .top{
+  width: fit-content;
+  height: 150px;
+  padding-top: 50px;
+}
+.product-2 .right .top img{
+  width: 170px;
+  height: 140px;
+  object-fit: contain;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.product-2 .right .bottom{
+  width: fit-content;
+  height: 70px;
+  padding-top: 50px;
+}
+.product-2 .right .bottom a{
+  text-decoration: none;
+  padding: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: iran-yekan;
+  box-sizing: border-box;
+  color: green;
+}
+.product-2 .left{
+  width: 80%;
+  height: 420px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.swiper-slide .image{
+  width: 60%;
+  height: 60%;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  background-color: lightgrey;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  font-size: 18px;
+  color:#2b2b2b;
+}
+
+
+.swiper-slide .rns{
+  width: 100%;
+  height: 20px;
+  text-align: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  direction: ltr;
+}
+.swiper-slide .rns span{
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: iran-yekan;
+  color: grey;
+  direction: rtl;
+  padding-left: 5px;
+  box-sizing: border-box;
+  
+}
+.swiper-slide .rns .txtRns{
+  width: 40px;
+  height: 20px;
+  background-color: blue;
+  display: inline;
+  text-decoration:unset;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: iran-yekan;
+  text-align: center;
+  border-radius: 5px;
+  padding-right: 5px;
+}
+.swiper-slide .rns-1{
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  direction: ltr;    
+}
+.swiper-slide .rns-1 span{
+  font-size: 14px;
+  font-family: iran-yekan;
+  color: grey;
+  
+}
+.swiper-slide .rns-1 .txtRns-1{
+  width: 60%;
+  height: inherit;
+  text-decoration:unset;
+  color: blue;
+  font-size: 12px;
+  font-family: iran-yekan;
+  direction: rtl;
+  padding-left: 2px;
+  box-sizing: border-box;
+  
+}
+.swiper-slide .rns-1 .wrap{
+  width: 40%;
+  height: inherit;
+  width: 100%;
+  height: 35px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: rtl;
+  padding-right: 2px;
+  box-sizing: border-box;
+
+}
+
+  .product-3{
+    width: 100%;
+    height: 180px;
+  }
+  .product-3 .best{
+    width: inherit;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+  .product-3 .best h2{
+    font-family: iran-yekan;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  .product-3 .brand{
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .product-3 .brand .photo{
+    width: 136px;
+    height: 69px;
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 10px;
+  }
+  .product-3 .brand .photo-1{
+    width: 136px;
+    height: 69px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .product-3 .brand .photo-2{
+    width: 136px;
+    height: 69px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+
+
+
+
+  .product-4{
+    width: 100%;
+    height: 600px;
+  }
+  .product-4 .banimarket{
+    width: 100%;
+    height: 90px;
+  }
+  .product-4 .banimarket h1{
+    color: #f16422;
+    font-family: iran-yekan;
+    font-weight: bold;
+  }
+  .product-4 .bestselling{
+    width: 100%;
+    height: 280px;
+    text-align: center;
+  }
+  .product-4 .bestselling .axe{
+    width: 293px;
+    height: 270px;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  .product-4 .bestselling .axe img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .product-4 .touzihat{
+    width: 100%;
+    height: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .product-4 .touzihat .touzihat-2{
+    width: 293px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .product-4 .touzihat .touzihat-2 .top{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+  }
+  .product-4 .touzihat .touzihat-2 .top .brand{
+    font-family: iran-yekan;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .product-4 .touzihat .touzihat-2 .top .price{
+    font-family: iran-yekan;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: grey;
+  }
+  .product-4 .touzihat .touzihat-2 .bottom{
+    width: 100%;
+    height: 50px;
+    direction: rtl;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+  .product-4 .touzihat .touzihat-2 .bottom .p{
+    width: 60%;
+    height: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: rtl;
+    font-family: iran-yekan;
+    color: grey;
+    font-size: 13px;
+  }
+  .product-4 .touzihat .touzihat-2 .bottom .price-2{
+    direction: rtl;
+    font-family: iran-yekan;
+    color: #f16422;
+    font-size: 13px;
+  }
+  
+  .product-4 .bottom{
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 3px;
+    box-sizing: border-box;
+    
+  }
+  .product-4 .bottom .bottom-1{
+    width: 170px;
+    height: 54px;
+    margin: 0 auto;
+    padding-right: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #f16422;
+    position: relative;
+    
+  }
+  .product-4 .bottom .bottom-1 a{
+    text-decoration: unset;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: iran-yekan;
+    position: absolute;
+    top: 13.5px;
+  }
+
+
+
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+.footer{
+    width: 100%;
+    height: 560px;
+    margin-top: 20px;
+}
+.footer .container{
+  width: 100;
+  height: 558px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.footer .container .top-footer{
+  width: 100%;
+  height: 240px;
+  margin: 0 auto;
+}
+.footer .container .top-footer .col-1{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  width: 180px;
+  height: 239px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.footer .container .top-footer .col-1 .text{
+  transition: 300ms;
+}
+.footer .container .top-footer .col-2{
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  width: 180px;
+  height: 239px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.footer .container .top-footer .col-2 .text{
+  transition: 300ms;
+}
+.footer .container .top-footer .col-3{
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  width: 180px;
+  height: 239px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.footer .container .top-footer .col-3 .text{
+  transition: 300ms;
+}
+.footer .container .top-footer .col-4{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  width: 300px;
+  height: 239px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.footer .container .top-footer .col-4 .text{
+  transition: 300ms;
+}
+.footer .container .top-footer .col-5{
+  padding-left: 15px;
+  padding-right: 30px;
+  display: inline-block;
+  width: 300px;
+  height: 239px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+.footer .container .top-footer .col-1 .weight{
+  font-family: iran-yekan;
+  font-weight: bold;
+  font-size: 18px;
+  color: grey;
+  padding-bottom: 30px;
+}
+.footer .container .top-footer .col-1 .text p{
+  font-family: iran-yekan;
+  font-size: 14px;
+  padding-bottom: 15px;
+  color: black;
+}
+.footer .container .top-footer .col-2 .weight{
+  font-family: iran-yekan;
+  font-weight: bold;
+  font-size: 18px;
+  color: grey;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+.footer .container .top-footer .col-2 .text p{
+  font-family: iran-yekan;
+  font-size: 14px;
+  padding-bottom: 15px;
+  color: black;
+}
+.footer .container .top-footer .col-4 .weight{
+  font-family: iran-yekan;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+.footer .container .top-footer .col-4 .text p{
+  font-family: iran-yekan;
+  font-size: 17px;
+  padding-bottom: 15px;
+  color: black;
+}
+.footer .container .top-footer .col-5 span{
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  width:fit-content;
+  height: inherit;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.bottom-footer{
+  width: 100%;
+  height: 300px;
+}
+.bottom-footer .tbh-bottom-footer{
+  width: 100%;
+  height: 60px;
+}
+.bottom-footer .tbh-bottom-footer h1{
+  color: grey;
+  font-family: iran-yekan;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.bottom-footer .bbh-bottom-footer{
+width: 100%;
+height: 230px;
+box-sizing: border-box;
+margin: 0 auto;
+}
+.bottom-footer .bbh-bottom-footer .right-bbh-bottom-footer{
+  width: 60%;
+  height: 160px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bottom-footer .bbh-bottom-footer .left-bbh-bottom-footer{
+  width: 35%;
+  height: 210px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: auto;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-right: 40px;
+}
+.bottom-footer .bbh-bottom-footer .left-bbh-bottom-footer .entities{
+  width: 100%;
+  height: 50px;
+  display: block;
+  position: relative;
+}
+.bottom-footer .bbh-bottom-footer .left-bbh-bottom-footer .entities span{
+  position: absolute;
+  left: 30px;
+}
+.bottom-footer .bbh-bottom-footer .left-bbh-bottom-footer .anjoman{
+  width: 24%;
+  height: 100px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.bottom-footer .bbh-bottom-footer .left-bbh-bottom-footer .anjoman img{
+  width: 100%;
+  height: 100%;
+}
+.bottom-footer .bbh-bottom-footer .right-bbh-bottom-footer p{
+  font-size: 15px;
+  font-family: iran-yekan;
+  line-height: 35px;
+  text-align: justify;
+}
+.bottom-footer .bbh-bottom-footer .left-bbh-bottom-footer div{
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.bottom-footer .bbh-bottom-footer .left-bbh-bottom-footer img{
+  width: 100%;
+  height: 100%;
+}
+
